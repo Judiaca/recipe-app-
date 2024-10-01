@@ -9,12 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-next": "^0.0.0",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "mongoose": "^8.7.0",
+    "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.13"
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.2.13"
+    "@types/styled-components": "^5.1.34",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.13",
+    "mini-css-extract-plugin": "^2.9.1"
   }
 }
